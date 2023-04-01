@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!-- 
+*****************************************************************************
+Title: Sales Page
+Use: To allow users to fill out and submit the contact form.
+Author: Edward Pablo de Sa Sauerbrunn
+School/Term: Southern Illinois University, Spring 2023
+Developed: Feb 9, 2023 
+Tested: Feb 9, 2023; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">  
+        <meta name='description' content='Bicycle Shop'>
+        <meta name='keywords'content='Bike, Bicycle, Ride'>
+        <meta name='author' content='Edward Pablo de Sa Sauerbrunn'>
+        <meta name='viewport'content=''>
+        <title>de Sa Sauerbrunn's Bike Shop</title>
+	  <link rel="stylesheet" href="index.css">
+	  <link rel='stylesheet' href='slicknav.css'>
+
+	  <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+	  <script src='jquery.slicknav.min.js'></script>
+	  <script type='text/javascript'>
+		$(document).ready(function(){
+	  		$('#nav_menu').slicknav({prependTo:'#mobile_menu'});
+		});
+	  </script>
+	<link rel="shortcut icon" sizes="180x180" href="bicycle.jpg">
+	
+</head>
+	
+	<nav id='mobile_menu'></nav>
+	<nav id='nav_menu'>
+		
+	   <ul>
+		 <li><a href='index.htm'>Home</a></li>
+		 <li><a href='rentals.htm'>Rentals</a></li>
+		 <li><a href='sales.htm'>Sales</a></li>
+		 <li><a href='services.htm'>Services</a></li>
+		 <li><a href='contact.htm'>Contacts</a></li>
+	   </ul>
+
+	</nav>
+
+<body>
+<br>
+
+<video class='video1' src="bikevideo.mp4" autoplay controls width='480' height='270'> </video>
+
+</body>
+
+</html>

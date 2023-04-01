@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<!-- 
+*****************************************************************************
+Title: Index Page
+Use: To allow users to fill out and submit the contact form.
+Author: Edward Pablo de Sa Sauerbrunn
+School/Term: Southern Illinois University, Spring 2023
+Developed: Feb 6, 2023 
+Tested: Feb 6, 2023; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">  
+        <meta name='description' content='Bicycle Shop'>
+        <meta name='keywords'content='Bike, Bicycle, Ride'>
+        <meta name='author' content='Edward Pablo de Sa Sauerbrunn'>
+        <meta name='viewport'content=''>
+        <title>DSS Bike Shop</title>
+	  <link rel="stylesheet" href="index.css">
+	  <link rel='stylesheet' href='slicknav.css'>
+	  
+	  
+	  <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+	  <script src='jquery.slicknav.min.js'></script>
+	  <script type='text/javascript'>
+		$(document).ready(function(){
+	  		$('#nav_menu').slicknav({prependTo:'#mobile_menu'});
+		});
+	  </script>
+	<link rel="shortcut icon" sizes="180x180" href="bicycle.jpg">
+
+
+</head>
+
+<body>
+	<div id='header'>
+	<h1>DSS Bicycles &copy; </h1>
+	<h2>The shop you know!</h2>
+	
+	<nav id='mobile_menu'></nav>
+	<nav id='nav_menu'>
+		
+	   <ul>
+		 <li><a href='index.htm'>Home</a></li>
+		 <li><a href='rentals.htm'>Rentals</a></li>
+		 <li><a href='sales.htm'>Sales</a></li>
+		 <li><a href='services.htm'>Services</a></li>
+		 <li><a href='contact.htm'>Contact</a></li>
+	   </ul>
+
+	</nav>
+	
+
+	<p>LIST OF BICYCLES</p>
+	<p>Rental of any of the items is strictly limit for two hours. 
+	Returning items past 2 hours will incur a fee of $50. Please be courteous.</p>
+	</div>
+
+	<article>
+		
+	<!--List of Bicycles and Helmets for rent-->
+	
+	<ul id='list'>
+		
+		<img id='image1'src='bicycle.jpg'>
+		<li>Good old</li>
+		This bicycle is made for anything you want to ride.<br> $100
+		<br><br><br>
+
+		<img id='image2'  src='Road bicycle.jfif'>
+		<li>Road Bicycle</li>
+		This bicycle is made to ride all over the place.<br>$250
+		<br><br><br>
+
+		<img id='image3'  src='track bicycle.jfif'>
+		<li>Track Cycling</li>
+		This bicycle is made to ride in competitions. <br>$100
+		<br><br><br>
+
+		<img id='image4'  src='cyclocross.jfif'>
+		<li>Cyclo-Cross</li>
+		This bicycle is made to ride in cyclocross courses.<br>$156
+		<br><br><br>
+		
+		<img id='image5'  src='Mountain bicycle.jfif'>
+		<li>Mountain Bike</li>
+		This bicycle is made to ride in mountains and rough terrain.<br>$260
+		<br><br><br>
+		
+		<img id='image1'  src='helmet1.jfif'>
+		<li>Champion's Helmet</li>
+		This bicycle is made to ride in shows.<br> $5
+		<br><br><br>
+
+		<img id='image2'  src='helmet2.jfif'>
+		<li>Pro Helmet</li>
+		This bicycle is made to ride in competitions. <br>$7
+		<br><br><br>
+
+		<img id='image3' src='helmet3.jfif'>
+		<li>Just Helmet</li>
+		This bicycle is made to ride in cyclocross courses.<br>$15
+		<br><br><br>
+		
+		<img id='image4' src='helmet4.jfif'>
+		<li>Cool Helmet</li>
+		This bicycle is made to ride in mountains and rough terrain.<br>$20
+		<br><br><br>
+		
+		<img id='image5'  src='helmet5.jfif'>
+		<li>Your helmet</li>
+		This bicycle is made to ride in shows.<br> $25
+		<br><br><br>
+ 
+	</ul>
+		</article>
+
+	<br><br><br>
+	<footer>
+		<a href='www.bike.com'>Bike Inc.</a>
+		<address>
+		29350 Agriculture Drive
+		618-549-5948
+		Carbondale, IL 
+		</address>
+	</footer>
+	
+
+</body>
+</html>

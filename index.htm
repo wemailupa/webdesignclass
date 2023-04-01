@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!-- 
+*****************************************************************************
+Title: Index Page
+Use: To allow users to fill out and submit the contact form.
+Author: Edward Pablo de Sa Sauerbrunn
+School/Term: Southern Illinois University, Spring 2023
+Developed: Feb 6, 2023 
+Tested: Feb 6, 2023; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">  
+        <meta name='description' content='Bicycle Shop'>
+        <meta name='keywords'content='Bike, Bicycle, Ride'>
+        <meta name='author' content='Edward Pablo de Sa Sauerbrunn'>
+        <meta name='viewport'content=''>
+        <title>DSS Bike Shop</title>
+	  <link rel="stylesheet" href="index.css">
+	  <link rel='stylesheet' href='slicknav.css'>
+	  	  
+	  <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+	  <script src='jquery.slicknav.min.js'></script>
+	  <script type='text/javascript'>
+		$(document).ready(function(){
+	  		$('#nav_menu').slicknav({prependTo:'#mobile_menu'});
+		});
+	  </script>
+	  <link rel="shortcut icon" sizes="180x180" href="bicycle.jpg">
+</head>
+
+<body>
+
+	
+	<h1 id='indexPageone'> DSS Bicycles</h1>
+	<!--<h2 id='indexPagetwo'>The Name you know!</h2> ->
+	
+	<!--<p>Mountain Bike</p>->
+
+	<div id='list'>
+	
+	<!--List of bicycles-->
+	
+	<nav id='mobile_menu'></nav>
+	<nav id='nav_menu'>
+		
+	   <ul>
+		 <li><a href='index.htm'>Home</a></li>
+		 <li><a href='rentals.htm'>Rentals</a></li>
+		 <li><a href='sales.htm'>Sales</a></li>
+		 <li><a href='services.htm'>Services</a></li>
+		 <li><a href='contact.htm'>Contact</a></li>
+	   </ul>
+
+	</nav>
+	
+	</div>
+	<br><br>
+	
+	<figure>
+		<img id="image00" width=250px height=175px>
+		<figcaption>Original DSS Bicycle hover then Helmet</figcaption>
+	</figure>
+	
+	<center><audio id='sound' autoplay controls loop>
+		<source src='bikesound.mp3'/> 
+	</audio></center>
+	
+	<br>
+	
+	<!--
+	<div id='bottom'>
+	<a href='index.htm'>Home</a>
+	<br>
+
+	<address>
+	29350 Agriculture Drive
+	618-549-5948
+	Carbondale, IL 
+	</address>
+
+	</div>
+	-->
+	
+</body>
+</html>
