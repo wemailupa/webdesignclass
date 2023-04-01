@@ -1,0 +1,498 @@
+/*
+*****************************************************************************
+Title: CSS File
+Use: To allow users to fill out and submit the contact form.
+Author: Edward Pablo de Sa Sauerbrunn
+School/Term: Southern Illinois University, Spring 2023
+Developed: Feb 6, 2023 
+Tested: Feb 6, 2023; Passed on Firefox and Chrome browsers.
+******************************************************************************
+*/
+
+
+/*Root Pseudo class to declare variables*/
+:root{
+	--color-1: #f2972e;
+	--color-2: yellow;
+	--color-3: green;
+	--color-4: fuchsia;
+	--color-5: #C0C0C0;
+	--color-6: #D3D3D3;
+	--color-7: #00008B;
+	--color-8: #FFFFF0;
+	--color-9: #808080;
+}
+
+/*Style for body*/
+body {
+	margin: 0.5%;
+	width: 100%;
+	max-width:1000px;
+	background-color: var(--color-8);
+	font-size:100%;
+	/*background-image: url('bicyle.jpg') no-repeat, linear-gradient(lightblue, ivory);*/
+	
+	
+}
+
+/*Style for heading*/
+h1 h2 {
+	padding: 1 50%;
+	font-size: 100%;
+}
+
+/*Style for index Page h1 heading*/
+#indexPageone{
+	text-align: center;
+	margin: auto;
+	font-size: 200%;
+	/*background-color: var(--color-2);*/
+}
+
+/*Style for index Page h2 heading*/
+#indexPagetwo{
+	text-align: center;
+	margin: auto;
+	background-color: var(--color-3);
+	font-size: 80%;
+}
+
+/*nav menu Style*/
+#nav_menu{
+	text-align: center;
+	font-size: 100%;
+}
+
+/*Unordered List index page Style*/
+#nav_menu ul{
+
+	display: inline;
+	list-style-type: none;
+	font-size: 100%;
+	width: 80%;
+	max-width: 1000px;
+	min-width: 50%;
+	/*padding: 1em 0;*/
+	/*border-top: 2px solid black;
+	border-bottom: 2px solid black;*/
+	
+}
+
+/*Style for background hover in future projects*/
+
+#nav_menu ul li{
+	display: inline;
+	background-color: var(--color-7);
+	padding: 0 1.5em;
+	font-size: 100%;
+	/*background-image: linear-gradient(#1095c1, blue, ivory);*/
+	/*background-image: linear-gradient(#1095c1, #1095c1);*/
+	/*
+	background-size: var(--p,0);
+	background-repeat: no-repeat;
+	transition: .4s;
+	border-radius: 2px;*/
+	
+	
+}
+
+/*Hover for future projects*/
+
+#nav_menu ul li:hover{
+	
+	font-size: 100%;
+	/*background-color: var(--color-9);
+	--p: 100%;
+	padding: 0 1.5em;*/
+	
+}
+
+
+
+/*Style for a href*/
+#nav_menu ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: ivory;
+	font-size: 100%;
+	
+}
+
+
+/*Article styling*/
+article {
+	width: 100%;
+	column-count: 2;
+	column-gap: 35px;
+	column-rule: 2px solid black;
+	text-align: center;
+	position: relative;
+	float: right;
+	margin-left:40%;
+	margin-right:0px;
+
+}
+
+#sound{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Column all style for title and footer*/
+footer{
+	text-align: center;
+	clear: both;
+}
+
+/*Style for Paragraph*/
+p {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+/*Style for list items*/
+
+#list {
+	padding-left: 10%;
+	list-style: none;
+	
+	
+}
+/*Style for bottom HOME Page*/
+
+
+#bottom a {
+	margin: auto;
+	text-decoration: none;
+}
+
+
+
+/*Link below*/
+a:link {
+	color: var(--color-3);
+	
+}
+
+.video1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+/*Hovering Effect*/
+a:hover {
+	color: var(--color-4);
+}
+
+/*Align text on top*/
+#header{
+
+	text-align: center;
+
+}
+
+figcaption {
+
+	text-align: center;
+	font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+/*Images Styling*/
+
+#image0  {
+
+	border-radius: 100px;
+	border: 2px solid black;
+	width: 100%;
+	height: 100%;
+
+}
+
+#image00 {
+	display: block;
+	Margin: auto;
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	background-image: url('bicycle.jpg');
+	background-size: cover;
+
+}
+
+#image00:hover {
+
+	background-image: url('helmet1.jfif');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+/*
+.overlay {
+	background-image: url('helmet1.jfif');
+	opacity: 0;
+}
+*/
+/*
+figure:hover .overlay{
+
+	opacity: 1;
+
+}*/
+
+
+
+/*Style for image1*/
+
+#image1 {
+	border: 2px solid black;
+	border-radius: 100px;
+	position: relative;
+	width:50%;
+	height:50%;	
+}
+
+#image2  {
+	border-radius:50px;
+	border: 10px solid var(--color-3);
+	width:50%;
+	height:50%;
+	border: 2px solid black;
+}
+
+#image3  {
+	border-radius: 100px;
+	border: 10px solid var(--color-2);
+	width:50%;
+	height:50%;
+	border: 2px solid black;
+}
+
+#image4  {
+	border-radius: 100px;
+	border: 10px solid var(--color-4);
+	width:50%;
+	height:50%;
+	border: 2px solid black;
+}
+
+#image5  {
+	border-radius: 100px;
+	border: 10px solid var(--color-2);
+	width:50%;
+	height:50%;
+	border: 2px solid black;
+}
+
+
+#mobile_menu {
+	display: block;
+}
+
+.slicknav_menu {
+	background-color: #facd8a !important;
+}
+
+table{
+	
+	border: 1px solid black;
+	border-collapse: no-collapse;
+	width:100%;
+}
+
+th, td{
+	border: 1px solid black;
+	padding: .2em .7em;
+
+}
+
+thead{
+	background-color: lightgreen;
+}
+
+tbody tr:nth-child(even){
+	background-color: lightyellow;
+}
+
+
+
+fieldset {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: .5em;
+	font-size: 90%;
+}
+
+legend, label{
+	color: #931420;
+	font-weight: bold;
+	font-size: 85%;
+	margin-bottom: .5em;
+}
+
+label, input, select{
+	
+	font-size:95%;
+}
+
+label {
+	
+	width: 12em;
+	text-align: right;
+}
+
+
+input, select{
+	
+	width: 15em;
+	margin-left: .5em;
+	margin-bottom: .5em;
+}
+
+
+input:required{
+	
+	border: 3px solid red;
+}
+
+
+#button input {
+	width: 10em;
+}
+
+
+/*To make table responsive and stack column upon column*/
+
+
+@media only screen and (max-width:320px){
+
+
+	
+	tr, th{
+		display: block;
+		font-size:100%;
+		background-color: white;
+	}
+	
+	thead{
+		background-color: lightgreen;
+	}
+
+	tbody tr:nth-child(odd){
+		background-color: lightgreen;
+	}
+
+	fieldset, legend, label, input{
+		font-size: 90%;
+		width: 50%;	
+	}
+	#thone{
+		background-color: var(--color-1);
+	}
+
+	#thtwo{
+		background-color: var(--color-2);
+	}
+
+	#ththree{
+		background-color: var(--color-3);
+	}
+
+	#thfour{
+		background-color: var(--color-4);
+	}
+		
+}
+
+
+@media only screen and (min-width:600px){
+	
+	body{
+		background-color: lavender;
+	}
+
+	#image00{
+		width: 50%;
+	}
+
+	#image1{
+		width: 50%;
+	}
+	
+	#image2{
+		width: 50%;
+	}
+
+	#image3{
+		width: 50%;
+	}
+
+	#image4{
+		width: 50%;
+	}
+
+
+	#nav_menu{
+		display:none;
+	}
+
+	fieldset, legend, label{
+		font-size: 100%;
+		width:90%;	
+	}
+	input{
+		
+		width: 10%;
+
+		}
+
+	#buttons{
+		width: 150%;
+	}
+
+}
+
+@media only screen and (max-width:600px){
+	
+	body{
+		background-color: lightblue;
+	}
+
+	#image00{
+		width: 30%;
+	}
+
+
+	#image1{
+		width: 30%;
+	}
+	
+	#image2{
+		width: 30%;
+	}
+
+	#image3{
+		width: 30%;
+	}
+
+	#image4{
+		width: 30%;
+	}
+
+
+	#mobile_menu {
+		display: none;
+	}
+
+	fieldset, legend, label, input{
+		font-size: 90%;
+		width:90%;	
+	}
+
+}
+
