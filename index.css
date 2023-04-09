@@ -371,7 +371,7 @@ input {
 
 /*To make table responsive and stack column upon column*/
 
-
+/*
 @media only screen and (max-width:600px){
 
 
@@ -426,7 +426,7 @@ input {
 	}
 		
 }
-
+*/
 
 @media only screen and (min-width:601px){
 	
@@ -479,7 +479,7 @@ input {
 
 
 }
-/*
+
 @media only screen and (max-width:600px){
 	
 	body{
@@ -518,4 +518,4 @@ input {
 	}
 
 }
-*/
+
