@@ -376,7 +376,7 @@ input {
 
 
 	tr, th{
-		display: block;
+		display: inline;
 		font-size:100%;
 		background-color: white;
 	}
