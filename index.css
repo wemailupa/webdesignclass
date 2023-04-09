@@ -371,8 +371,8 @@ input {
 
 /*To make table responsive and stack column upon column*/
 
-/*
-@media only screen and (max-width:500px){
+
+@media only screen and (max-width:600px){
 
 
 	tr, th{
@@ -427,8 +427,8 @@ input {
 		
 }
 
-*/
-@media only screen and (min-width:600px){
+
+@media only screen and (min-width:601px){
 	
 	body{
 		background-color: lavender;
@@ -474,12 +474,12 @@ input {
 	}
 
 	#reset{
-	width: 30em;
+		width: 30em;
 	}
 
 
 }
-
+/*
 @media only screen and (max-width:600px){
 	
 	body{
@@ -518,4 +518,4 @@ input {
 	}
 
 }
-
+*/
